@@ -92,3 +92,6 @@ Most of the properties are mnemonic and pretty straightforward to be used. Custo
     - (void)colorPicker:(MCColorPicker*)colorPicker didSelectColor:(UIColor*)color;
     
     @end
+
+## Credits
+MCAvatarView is brought to you by [MyAppControls](http://www.binpress.com/profile/myappcontrols/30934) team.
