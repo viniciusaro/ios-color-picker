@@ -5,7 +5,7 @@ Demo video: https://www.youtube.com/watch?v=J_ftiilogLs
 
 More info at: http://myappcontrols.binpress.com/product/ios-color-picker/2066
 
-![alt tag](http://myappcontrols.binpress.com/images/stores/store30934/captura-de-tela-2014-02-03-às-1.59.25-pm.png)
+![alt tag](http://myappcontrols.binpress.com/images/stores/store30934/captura-de-tela-2014-01-31-às-12.37.53-pm.png)
 
 ## Installation
 
