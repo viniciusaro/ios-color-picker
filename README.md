@@ -3,6 +3,8 @@ The iOS Color Picker is a simple tool to that shows a list of colors and allows 
 
 Most of the properties are mnemonic and pretty straightforward to be used. Custom types can be easily explored on the interface files provided. 
 
+Demo video: https://www.youtube.com/watch?v=J_ftiilogLs
+
 **Properties**    
 
     @interface MCColorPicker : MCNewCustomLayeredView
