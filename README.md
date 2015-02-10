@@ -1,4 +1,4 @@
-# iOS Color Picker
+# iOS Simple Color Picker
 The iOS Color Picker is a simple tool to that shows a list of colors and allows the users to select one of them, sending the feedback to your application. The default appearance conforms to the new iOS 7 design, It has built in animation features for presenting actions. 
 
 Most of the properties are mnemonic and pretty straightforward to be used. Custom types can be easily explored on the interface files provided. 
