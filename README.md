@@ -27,11 +27,23 @@ MCColorPicker can be added to your view either from the Interface Builder or thr
 * On the view controller's header file create an IBOutlet property of the type MCColorPicker and link it to the object you created on the Interface Builder.
 
 ### Through Code:
-
 ```
 CGRect frame = CGRectMake(x, y, width, height);
 MCColorPicker *colorPicker = [[MCColorPicker alloc] initWithFrame:frame];
 [self.view addSubview:colorPicker];
+```
+
+## Example Usage
+```
+self.colorPicker.colors = [[NSMutableArray alloc] initWithObjects:
+                               [UIColor redColor],
+                               [UIColor yellowColor],
+                               [UIColor greenColor],
+                               [UIColor blueColor],
+                               [UIColor grayColor],
+                               nil];
+
+self.colorPicker.delegate = self;
 ```
 
 ## Documentation
