@@ -95,3 +95,11 @@ Most of the properties are mnemonic and pretty straightforward to be used. Custo
 
 ## Credits
 Brought to you by [MyAppControls](http://www.binpress.com/profile/myappcontrols/30934) team.
+
+## Similar Projects
+
+[iOS Bar Chart](https://github.com/vinicius-a-ro/ios-bar-chart-view)
+
+[iOS Circular Progress Bar](https://github.com/vinicius-a-ro/ios-circular-progress-bar)
+
+[iOS Pie Chart](https://github.com/vinicius-a-ro/ios-pie-chart-view)
