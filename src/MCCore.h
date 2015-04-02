@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 
 // util
-#import <MCCore/MCUtil.h>
+#import "MCUtil.h"
 
 // custom layers
-#import <MCCore/MCNewCustomLayer.h>
-#import <MCCore/MCSliceLayer.h>
+#import "MCNewCustomLayer.h"
+#import "MCSliceLayer.h"
 
 //custom views
-#import <MCCore/MCNewCustomLayeredView.h>
+#import "MCNewCustomLayeredView.h"

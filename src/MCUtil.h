@@ -75,6 +75,9 @@ typedef void (^BlockWithArgument)(id obj);
 + (NSString*)stringFromDate:(NSDate*)date withFormat:(NSString*)format;
 + (NSString*)stringFromDate:(NSDate*)date;
 
+// image
++ (UIImage *)fixImageOrientation:(UIImage*)image;
+
 // log
 
 @end

@@ -8,7 +8,7 @@
 
 #import "MCColorPicker.h"
 #import "MCColorPickerLayer.h"
-#import <MCCore/MCNewCustomLayeredView+MCCustomLayeredViewSubclass.h>
+#import "MCNewCustomLayeredView+MCCustomLayeredViewSubclass.h"
 
 @implementation MCColorPicker {
     CGFloat pickerWidth;
@@ -53,6 +53,16 @@
     picker.x        = x;
     picker.color    = [self.colors objectAtIndex:index];
     
+    if (self.images && index < self.images.count)
+    {
+        if ([self.images objectAtIndex:index] != [NSNull null])
+        {
+            picker.mainPathImage = [self.images objectAtIndex:index];
+        }
+    }
+    
+    picker.imageBoundsStyle = MCNewCustomLayerImageBoundsItemRect;
+    
     x += pickerWidth+interPickerSpace;
     
     return picker;
@@ -70,6 +80,16 @@
     [self selectItemAtIndex:index];
     
     _currentColor = [self.colors objectAtIndex:index];
+    
+    if ([self.delegate respondsToSelector:@selector(colorPicker:didSelectColor:)])
+    {
+        [self.delegate colorPicker:self didSelectColor:[self.colors objectAtIndex:index]];
+    }
+}
+
+- (void)selectItemAtIndex:(NSUInteger)index
+{
+    [super selectItemAtIndex:index];
     
     if ([self.delegate respondsToSelector:@selector(colorPicker:didSelectColor:)])
     {

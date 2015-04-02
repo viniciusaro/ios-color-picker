@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 MyAppControls. All rights reserved.
 //
 
-#import <MCCore/MCCore.h>
+#import "MCCore.h"
 #import <UIKit/UIGestureRecognizerSubclass.h>
 
 /*
@@ -14,7 +14,7 @@
  Code that uses subclasses of MCNewCustomLayeredView must never call these
  To subclass MCNewCustomLayeredView add:
  
- #import <MCCore/MCNewCustomLayeredView+MCCustomLayeredViewSubclass.h>
+ #import "MCNewCustomLayeredView+MCCustomLayeredViewSubclass.h>
  
  on the implementation file.
  */

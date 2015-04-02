@@ -53,6 +53,16 @@
     picker.x        = x;
     picker.color    = [self.colors objectAtIndex:index];
     
+    if (self.images && index < self.images.count)
+    {
+        if ([self.images objectAtIndex:index] != [NSNull null])
+        {
+            picker.mainPathImage = [self.images objectAtIndex:index];
+        }
+    }
+    
+    picker.imageBoundsStyle = MCNewCustomLayerImageBoundsItemRect;
+    
     x += pickerWidth+interPickerSpace;
     
     return picker;

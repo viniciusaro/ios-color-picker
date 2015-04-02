@@ -198,7 +198,7 @@
         
         CGContextAddPath(context, self.mainPath);
         CGContextClip(context);
-        CGContextDrawImage(context, [self mainPathImageBounds], self.mainPathImage.CGImage);
+        CGContextDrawImage(context, [self mainPathImageBounds], [MCUtil fixImageOrientation:self.mainPathImage].CGImage);
         
         CGContextRestoreGState(context);
     }

@@ -25,6 +25,18 @@
                                [UIColor blueColor],
                                [UIColor grayColor],
                                nil];
+
+    
+    // uncomment to use se the usage of images
+    /*
+    self.colorPicker.images = [[NSMutableArray alloc] initWithObjects:
+                               [UIImage imageNamed:@"square"],
+                               [UIImage imageNamed:@"square"],
+                               [NSNull null],
+                               [UIImage imageNamed:@"square"],
+                               [UIImage imageNamed:@"square"],
+                               nil];
+    //*/
     
     self.colorPicker.delegate = self;
     [self.colorPicker selectItemAtIndex:2];

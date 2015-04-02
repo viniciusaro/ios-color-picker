@@ -29,6 +29,11 @@
 @property (nonatomic, strong) NSMutableArray *colors;
 
 /*
+ Array that may contain the images that will be displayed on the control
+ */
+@property (nonatomic, strong) NSMutableArray *images;
+
+/*
  The current selected color. Starts nil
  */
 @property (nonatomic, strong, readonly) UIColor *currentColor;
